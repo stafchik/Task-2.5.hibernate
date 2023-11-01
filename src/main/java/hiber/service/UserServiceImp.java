@@ -2,13 +2,13 @@ package hiber.service;
 
 import hiber.dao.UserDao;
 import hiber.model.User;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.List;
 
-@Component
+@Service
 public class UserServiceImp implements UserService {
 
 

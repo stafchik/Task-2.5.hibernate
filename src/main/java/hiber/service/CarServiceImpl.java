@@ -3,12 +3,12 @@ package hiber.service;
 import hiber.dao.CarDao;
 import hiber.model.Car;
 import hiber.model.User;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Component
+@Service
 public class CarServiceImpl implements CarService {
 
     private final CarDao carDao;
