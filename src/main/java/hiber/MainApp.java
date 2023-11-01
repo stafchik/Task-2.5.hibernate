@@ -38,7 +38,7 @@ public class MainApp {
             System.out.println("Car = " + user.getCar());
             System.out.println();
         }
-        System.out.println(carService.getUserbyCar("adw", 3).toString());
+        System.out.println(carService.getUserByCar("adw", 3).toString());
 
 
         context.close();
